@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Comercio</title>
+    <link rel="stylesheet" href="../Css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="../Images/LOGO-HORIZONTAL-CASTELLANO-BLANCO.png" alt="Logo">
+        </div>
+
+        <div class="navbar-center-text">
+            Editar Comercio
+        </div>
+        <div class="navbar-nav">
+            <a href="landing.html" class="nav-link">Cerrar sesión</a>
+        </div>
+    </nav>
+
+    <!-- Sección de edición de comercio -->
+    <section class="comercio-detail-section">
+        <div class="comercio-detail-content">
+            <h1>Editar Comercio</h1>
+
+            <!-- Formulario de edición de comercio -->
+            <form>
+                <div class="mb-3">
+                    <label for="comercioName" class="form-label">Nombre del Comercio</label>
+                    <input type="text" class="form-control" id="comercioName" value="Comercio 1" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="comercioAddress" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="comercioAddress" value="" required>
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="comercioDescription" class="form-label">Descripción</label>
+                    <textarea class="form-control" id="comercioDescription" rows="4" required>Descripción breve del comercio.</textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="comercioAddress" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="comercioAddress" value="Calle Ficticia 123" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="comercioCategory" class="form-label">Categoría</label>
+                    <select class="form-control" id="comercioCategory">
+                        <option value="Alimentos">Alimentos</option>
+                        <option value="Ropa">Ropa</option>
+                        <option value="Electrónica">Electrónica</option>
+                    </select>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn">Guardar Cambios</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
