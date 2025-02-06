@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Comercios</title>
+    <link rel="stylesheet" href="../Css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="../Images/LOGO-HORIZONTAL-CASTELLANO-BLANCO.png" alt="Logo">
+        </div>
+        <div class="navbar-center-text">
+            Listado de Comercios
+        </div>
+        <div class="navbar-nav">
+            <a href="private_landing.html" class="nav-link">Volver Atrás</a>
+            <a href="landing.html" class="nav-link">Cerrar sesión</a>
+        </div>
+    </nav>
+
+    <!-- Sección principal con listado de comercios -->
+    <section class="comercio-list-section">
+        <div class="comercio-list-content">
+            <h1>Listado de Comercios</h1>
+            
+            <div class="comercio-item">
+                <a href="comercio_detail1.html" class="comerciolink"><h2>Remi Burguer</h2></a>
+                <p>Las mejores hamburguesas</p>
+            </div>
+            <div class="comercio-item">
+                <h2>Espiga de Oro</h2>
+                <p>Una de nuestras mejores panaderias</p>
+            </div>
+            <!-- Opciones adicionales, visibles solo si el usuario está registrado -->
+            <div class="additional-options">
+                <!-- Suponemos que el usuario está registrado, por lo que estas opciones se muestran -->
+                <button class="btn-option">Agregar Comercio</button>
+                <a href="comercio_detail.html" class="btn-option">Editar Comercio</a>
+                <a href="confirm_delete.html" class="btn-option">Eliminar Comercio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
